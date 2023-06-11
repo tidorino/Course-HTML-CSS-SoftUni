@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+blockquote {
+    border-left: 0.2em solid  rgb(221,221,221);
+    padding-left: calc(1.5 * var(--white-space, 1.5em));
+    padding: var(--white-space, 1.5em);
+}
+blockquote p {
+    font-style: italic;
+
+}
+blockquote p.name {
+    text-align: right;
+}
+hr {
+    border: 0.1em solid  rgb(221,221,221);
+}

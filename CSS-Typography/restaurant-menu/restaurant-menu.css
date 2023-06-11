@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-weight: 400px;
+    line-height: 1.15;
+    color: #747474;
+}
+span {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 600px;
+    color: #5c5a5a;
+    line-height: 1.46;
+    font-size: 16px;
+
+}
+p {
+    font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Arial, sans-serif;   
+    font-weight: 400px;
+    color: #5c5a5a;
+    line-height: 1.46;
+    font-size: 16px;
+}
