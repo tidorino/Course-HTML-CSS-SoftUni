@@ -1,6 +1,6 @@
 
 body {
-    padding: 5rem;
+    padding: 5rem 0;
     background-color: #eee;
 }
 
@@ -10,8 +10,8 @@ body {
     text-align: center;
     
 }
-li {
-    width: 18rem;
+.gallery li {
+    width: 15rem;
     display: inline-block;
     background-color: #fff;
     border: 0.4rem solid #000;
