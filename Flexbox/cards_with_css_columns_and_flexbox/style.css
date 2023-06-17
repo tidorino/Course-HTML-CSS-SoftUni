@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;   
+    flex-wrap: wrap;      
+    background: rgb(238, 238, 238);
+    height: auto;
+    border: 2px solid #000;    
+    width: auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: auto; */
+    flex: 0 5 20em;  
+    background: rgb(255, 255, 255);
+    padding: 0.5em;
+    border-radius: 0.15em;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.3);   
+}
