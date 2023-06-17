@@ -1,0 +1,21 @@
+
+header {    
+    display: flex;
+    border-bottom: 2px solid lightslategray;
+    
+}
+header nav {
+    margin-left: auto;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    color:  rgb(0,153,0);
+}
+header nav li {
+    display: block;
+}
+header nav a {
+    padding: 0.5em 0.5em;
+}

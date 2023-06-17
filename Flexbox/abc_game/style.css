@@ -1,0 +1,30 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column  ;   
+    max-width: 15vw;
+    height: 20rem;
+    gap: 1em;
+  
+}
+
+span {    
+    border: 1px solid black;
+    display: block;
+    flex: 0 0 auto;
+    width: 3em;
+    text-align: center;
+
+}
+span:nth-child(11) {order: 1;}
+span:nth-child(2) {order: 2;}
+span:nth-child(12) {order: 3;}
+span:nth-child(4) {order: 4;}
+span:nth-child(8) {order: 5;}
+ 
